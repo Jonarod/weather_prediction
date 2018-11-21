@@ -16,7 +16,7 @@ If you don't have a `jupyter notebook` installed locally, here are alternatives:
 I personnaly use this docker image:
 
 ```
-# REPLACE /local/file/name with your 
+# REPLACE /local/file/name with your local project's folder
 docker run -v /local/file/name:/home/jovyan/work -p 8888:8888 jupyter/scipy-notebook
 ```
 
